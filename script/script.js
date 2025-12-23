@@ -74,8 +74,8 @@ document.getElementById("btnEnviar").addEventListener("click", async () => {
   doc.text(`Módulo: ${projeto}`, 20, 60);
   doc.text(`Nome da pasta: ${linha}`, 20, 70);
   doc.text(`Data da Verificação: ${junta}`, 20, 80);
-  doc.text(`Numero da linha: ${pasta}`, 20, 80);
-  if (observacao) doc.text(`Observação: ${observacao}`, 20, 90);
+  doc.text(`Produto / Numero da linha: ${pasta}`, 20, 90);
+  if (observacao) doc.text(`Observação: ${observacao}`, 20, 100);
 
   if (fotos.length > 0) {
     doc.addPage();
